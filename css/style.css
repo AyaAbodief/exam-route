@@ -1,0 +1,255 @@
+*
+{
+    box-sizing: border-box;
+
+}
+.brdr
+{
+    width: 70%;
+    height: 120%;
+    border: solid 8px black;
+}
+.brdr_img:hover
+{
+    transform: translateX(3px);
+}
+h2 ,h5
+{
+    color: white;
+}
+
+.font_aowsem
+{
+   
+    height: 50px;
+    width: 50px;
+    border: solid 3px #e65f78;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+    
+}
+.font_aowsem span
+{
+    text-align: center;
+    margin-bottom: 2px;
+}
+.fix
+{
+position: fixed;
+top: 0px;
+z-index: 99999;
+}
+
+.spinner
+{
+  
+ 
+    width: 4%;
+    height: 7%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(50px);
+    position: fixed;
+    left: 96%;
+    z-index: 9999999999999999;
+  
+ 
+   
+ 
+}
+
+.spinner i{
+    font-size: 22px;
+    text-align: center;
+    color: white;
+
+}
+.over_header
+{
+    background-color:rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+ 
+}
+header
+
+{
+    height: 100vh;
+    background-image: url(../img/1.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+ 
+
+   
+}
+.data1 span , .data2 span  
+{
+    font-weight: 500;
+}
+button
+{
+    background-color: #e65f78;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+}
+i , svg
+{
+    color: #e65f78;
+}
+.home img
+{
+    width: 70%;
+}
+.navbar-nav
+{
+    position: absolute;
+    top: 2px;
+    right: 3px;
+}
+.ALBERT
+{
+   
+    text-align: center;
+    margin: auto;
+  margin-top: 70px;
+    color: white;
+   
+ 
+}
+.service a{
+    text-decoration: none;
+
+ 
+}
+img:hover
+{
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+.photo
+{
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/1\ \(1\).jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 100%;
+    border: 5px solid #ccc;
+    
+ 
+}
+.height-img
+{
+    height: 70%;
+}
+
+ul
+{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.text:hover
+{
+   
+    color: #e65f78;
+}
+
+ul a{
+    text-decoration: none;
+    color: white;
+}
+ul a:hover
+{
+    color: #e65f78;
+}
+ul li
+{
+    text-transform: capitalize;
+}
+.ul2 a
+{
+    color: black;
+}
+.service
+{
+    background-color: #f9f9f9;
+}
+
+
+.ser i {
+    font-size: 45px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    
+}
+p{
+    line-height: 30px;
+}
+
+span
+{
+    color: #e65f78;
+}
+.numbers
+{
+    text-align: center;
+    background-color: black;
+    padding: 25px;
+}
+.news
+{
+    background-color:#f9f9f9;
+ 
+}
+footer
+{
+background-color: black;
+color: white;
+padding: 50px;
+
+
+}
+.i-footer
+{
+    margin-left: 10px;
+    color: white;
+}
+.fs-5
+{
+    color: black;
+    
+}
+p
+{
+    
+    word-spacing: 4px;
+}
+
+p i{
+    padding-right: 6px;
+}
+.move
+{
+    transform: translateY(-450px);
+    /* transform: translatex(50px); */
+}
+.img1
+{
+    width: 80%;
+    height: 100%;
+    border: 4px black solid;
+    transform: translateY(10px);
+}
+
+
+    
